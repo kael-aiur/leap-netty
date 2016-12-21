@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.leapframework.org/schema/beans">
+
+    <bean type="kael.leap.netty.server.service.Services" class="kael.leap.netty.server.service.Services">
+    </bean>
+    <bean type="kael.leap.netty.server.ServerHandler" class="kael.leap.netty.server.ServerHandler">
+    </bean>
+
+    <bean-list type="kael.leap.netty.server.service.Service">
+        <bean class="kael.leap.netty.server.service.IndexService"></bean>
+    </bean-list>
+
+</beans>
